@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>МТС Лончер</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-main wrap">
+            <div class="header-logo">
+                <img src="img/logo.svg" alt="">
+            </div>
+            <nav class="navigation">
+                <ul class="nav-list">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="premium.html">MТС Premium</a></li>
+                    <li><a href="tarif.html">Тарифы</a></li>
+                    <li><a href="mts-launcher.html">МТС Лончер</a></li>
+                </ul>
+            </nav>
+            <div class="header-btn">
+                <button class="button-login js-open-modal" id="callback-button" data-modal="3">Авторизация</button>
+            </div>
+
+            <div class="modal loogin" data-modal="3">
+                <div class="modal__content login">
+                    <img src="img/id.svg" alt="" width="203">
+                    <p class="modalwindow_title tlogin">Введите номер телефона любого оператора</p>
+                    <input type="tel" name="Tel" id="tel" value="+7" class="ilogin">
+                    <button class="modal-avto btnred blogin">Авторизоваться</button>
+                </div>
+            </div>
+            <div class="overlay js-overlay-modal"></div>
+
+        </div>
+    </header>
+    <main>
+        <section class="main_launcher">
+            <div class="launcher-banner">
+                <div class="lan-banner-text wrap">
+                    <p class="lan-banner-title">МТС Лончер</p>
+                    <p class="lan-banner-p">Настраивайте смартфон как захотите</p>
+                </div>
+            </div>
+            <div class="launcher-content">
+                <div class="lan-content-card">
+                    <div class="lan-card-banner">
+                        <img src="img/launcher-main.png" alt="">
+                    </div>
+                    <div class="lan-card-info">
+                        <p class="lan-info-title">МТС Лончер</p>
+                        <p class="lan-info-p-gray">100 000+ скачиваний на Google Play. Обновите смартфон не покупая
+                            новый.</p>
+                        <p class="lan-info-p">МТС Лончер — приложение, с помощью которого можно сделать уникальным
+                            внешний вид
+                            рабочего стола в
+                            вашем смартфоне. Лончер предлагает такие настройки, которых обычно в телефоне нет.</p>
+                        <ul class="lan-info-list">
+                            <li>Живые обои</li>
+                            <li>Умные виджеты</li>
+                            <li>Секретные приложения</li>
+                            <li>Рабочий стол в стиле iOS</li>
+                            <li>Уникальные формы иконок</li>
+                            <li>Настройки сетки экрана</li>
+                            <li>Блокировка приложений от перемещения</li>
+                            <li>Персональная подборка новостей и блогов</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="launcher-card-info wrap">
+                <div class="lan-info-card">
+                    <img src="img/launcher-roaming_icon.svg" alt="">
+                    <p class="lan-info-card-p">Лончер от оператора связи</p>
+                </div>
+                <div class="lan-info-card">
+                    <img src="img/launcher-pay_icon.svg" alt="">
+                    <p class="lan-info-card-p">Баланс, остатки пакетов и кешбэк под рукой</p>
+                </div>
+                <div class="lan-info-card">
+                    <img src="img/launcher-services_icon.svg" alt="">
+                    <p class="lan-info-card-p">Быстрый доступ к сервисам МТС</p>
+                </div>
+            </div>
+            <div class="launcher-qrcode">
+                <div class="lan-qr-img">
+                    <img src="img/launcher_qr-code.svg" alt="">
+                </div>
+                <div class="lan-qr-text">
+                    <p class="lan-qr-title">Установщик МТС Лончер</p>
+                    <p class="lan-qr-p">Я не работаю на этом устройстве, но если у вас Android-смартфон, у меня хорошие
+                        новости. Отсканируйте
+                        QR-код, чтобы скачать меня</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-info">
+            <a href="https://clck.ru/34hJy5"><img src="img/app-gallery.svg" alt=""></a>
+            <a href="https://clck.ru/34hJwx"><img src="img/app-store.svg" alt=""></a>
+            <img src="img/footer-qr.svg" alt="" class="qr-ft">
+            <a href="https://clck.ru/34hJyQ"><img src="img/google-play.svg" alt=""></a>
+            <a href="https://clck.ru/34hJyt"><img src="img/app-bazar.svg" alt=""></a>
+        </div>
+    </footer>
+
+    <script src="js/modal-login.js"></script>
+</body>
+
+</html>

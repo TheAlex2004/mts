@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>МТС Music</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-main wrap">
+            <div class="header-logo">
+                <img src="img/logo.svg" alt="">
+            </div>
+            <nav class="navigation">
+                <ul class="nav-list">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="premium.html">MТС Premium</a></li>
+                    <li><a href="tarif.html">Тарифы</a></li>
+                    <li><a href="mts-launcher.html">МТС Лончер</a></li>
+                </ul>
+            </nav>
+            <div class="header-btn">
+                <button class="button-login js-open-modal" id="callback-button" data-modal="3">Авторизация</button>
+            </div>
+
+            <div class="modal loogin" data-modal="3">
+                <div class="modal__content login">
+                    <img src="img/id.svg" alt="" width="203">
+                    <p class="modalwindow_title tlogin">Введите номер телефона любого оператора</p>
+                    <input type="tel" name="Tel" id="tel" value="+7" class="ilogin">
+                    <button class="modal-avto btnred blogin">Авторизоваться</button>
+                </div>
+            </div>
+            <div class="overlay js-overlay-modal"></div>
+
+        </div>
+    </header>
+    <main>
+        <section class="main_music">
+            <div class="music-banner">
+                <div class="mus-banner-text wrap">
+                    <p class="mus-banner-title">МТС Music</p>
+                    <p class="mus-banner-p">Слушайте более 65 млн музыкальных композиций, персональные подборки и
+                        плейлисты, любимые треки и многое другое.</p>
+                    <p class="mus-banner-p">30 дней бесплатно, далее 169 ₽/мес</p>
+                </div>
+            </div>
+            <div class="music-content wrap">
+                <div class="mus-content-title --black">
+                    СЕРВИС ВКЛЮЧАЕТ В СЕБЯ
+                </div>
+                <div class="mus-content-card">
+                    <div class="mus-card-cont">
+                        <div class="mus-card-import">
+                            <div class="m-playlist-icon">
+                                <img src="img/mts-music-star_icon.svg" alt="">
+                            </div>
+                            <div class="m-playlist-text">
+                                <p class="mus-card-title">Перенесите свои плейлисты</p>
+                                <p class="mus-card-text">Импортируйте свою медиатеку из других музыкальных сервисов в
+                                    МТС
+                                    Music</p>
+                            </div>
+                        </div>
+                        <div class="mus-card-network">
+                            <div class="m-playlist-icon">
+                                <img src="img/mts-music-play_icon.svg" alt="">
+                            </div>
+                            <div class="m-playlist-text">
+                                <p class="mus-card-title">Бесплатный трафик в сети МТС</p>
+                                <p class="mus-card-text">При прослушивании МТС Music трафик не расходуется</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mus-card-playlist">
+                        <div class="m-playlist-text thepadding">
+                            <p class="mus-card-title">Новые плейлисты каждый день</p>
+                            <p class="mus-card-text">Персональный плейлист и подборки от популярных исполнителей</p>
+                        </div>
+                        <div class="m-playlist-photo">
+                            <img src="img/mts-music_playlist.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="music-popular">
+                <div class="mus-content-title --white">
+                    ПОПУЛЯРНЫЕ ПЛЕЙЛИСТЫ
+                </div>
+                <div class="mus-popular-card wrap">
+                    <div class="mus-pop-card">
+                        <img src="img/mts-music_playlist1.png" alt="">
+                        <p class="m-pop-text">Спеши услышать: поп</p>
+                    </div>
+                    <div class="mus-pop-card">
+                        <img src="img/mts-music_playlist2.png" alt="">
+                        <p class="m-pop-text">Главные треки недели</p>
+                    </div>
+                    <div class="mus-pop-card">
+                        <img src="img/mts-music_playlist3.png" alt="">
+                        <p class="m-pop-text">Спеши услышать: рэп</p>
+                    </div>
+                    <div class="mus-pop-card">
+                        <img src="img/mts-music_playlist4.png" alt="">
+                        <p class="m-pop-text">ТОП 100 всех времен</p>
+                    </div>
+                </div>
+            </div>
+            <div class="music-code wrap">
+                <div class="mus-qr">
+                    <div class="m-qr-photo">
+                        <img src="img/mts-music_qr-code.svg" alt="">
+                    </div>
+                    <div class="m-qr-text">
+                        <p class="m-qr-title">Всё самое актуальное в МТС Music</p>
+                        <p class="m-qr-ps">Перейдите на сайт или отсканируйте QR-код и скачайте приложение</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-info">
+            <a href="https://clck.ru/34hJy5"><img src="img/app-gallery.svg" alt=""></a>
+            <a href="https://clck.ru/34hJwx"><img src="img/app-store.svg" alt=""></a>
+            <img src="img/footer-qr.svg" alt="" class="qr-ft">
+            <a href="https://clck.ru/34hJyQ"><img src="img/google-play.svg" alt=""></a>
+            <a href="https://clck.ru/34hJyt"><img src="img/app-bazar.svg" alt=""></a>
+        </div>
+    </footer>
+
+    <script src="js/modal-login.js"></script>
+</body>
+
+</html>

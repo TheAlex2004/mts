@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>МТС</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-main wrap">
+            <div class="header-logo">
+                <img src="img/logo.svg" alt="">
+            </div>
+            <nav class="navigation">
+                <ul class="nav-list">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="premium.html">MТС Premium</a></li>
+                    <li><a href="tarif.html">Тарифы</a></li>
+                    <li><a href="mts-launcher.html">МТС Лончер</a></li>
+                </ul>
+            </nav>
+            <div class="header-btn">
+                <button class="button-login js-open-modal" id="callback-button" data-modal="3">Авторизация</button>
+            </div>
+
+            <div class="modal loogin" data-modal="3">
+                <div class="modal__content login">
+                    <img src="img/id.svg" alt="" width="203">
+                    <p class="modalwindow_title tlogin">Введите номер телефона любого оператора</p>
+                    <input type="tel" name="Tel" id="tel" value="+7" class="ilogin">
+                    <button class="modal-avto btnred blogin">Авторизоваться</button>
+                </div>
+            </div>
+            <div class="overlay js-overlay-modal"></div>
+
+        </div>
+    </header>
+    <main>
+        <section class="main_main">
+            <div class="main-banner">
+                <div class="mai-banner-text wrap">
+                    <p class="mai-banner-title">МТС</p>
+                    <p class="mai-banner-p">Быть лучше каждый день</p>
+                </div>
+            </div>
+            <div class="main-junior-content wrap">
+                <div class="mai-content-title">
+                    <p>МТС JUNIOR</p>
+                </div>
+                <div class="mai-content-junior-bg">
+                    <div class="m-jun-text">
+                        <p class="m-jun-text-title">МТС для детей</p>
+                        <p class="m-jun-text-p">Полезные продукты и сервисы для качественного обучения, развлечений и
+                            безопасности ребёнка</p>
+                        <div class="m-jun-button">
+                            <button class="jun-btn" onclick="document.location='junior.html'">Подробнее</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-music-content wrap">
+                <div class="mai-content-title">
+                    <p>МТС Music</p>
+                </div>
+                <div class="mai-content-music-bg">
+                    <div class="m-mus-card">
+                        <div class="m-mus-card-info">
+                            <div class="m-mus-card-text">
+                                <p class="m-mus-card-title">МТС Music </p>
+                                <p class="m-mus-card-p">Миллионы треков онлайн и офлайн</p>
+                            </div>
+                            <div class="m-mus-card-icon">
+                                <img src="img/main_music-logo.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="m-mus-card-price">
+                            <p class="m-mus-card-price-title">0₽/первый месяц</p>
+                            <p class="m-mus-card-price-p">30 дней бесплатно, далее 169 ₽/мес</p>
+                            <div class="m-mus-card-btn">
+                                <button class="jun-btn" onclick="document.location='mts-music.html'">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-info">
+            <a href="https://clck.ru/34hJy5"><img src="img/app-gallery.svg" alt=""></a>
+            <a href="https://clck.ru/34hJwx"><img src="img/app-store.svg" alt=""></a>
+            <img src="img/footer-qr.svg" alt="" class="qr-ft">
+            <a href="https://clck.ru/34hJyQ"><img src="img/google-play.svg" alt=""></a>
+            <a href="https://clck.ru/34hJyt"><img src="img/app-bazar.svg" alt=""></a>
+        </div>
+    </footer>
+
+    <script src="js/modal-login.js"></script>
+</body>
+
+</html>

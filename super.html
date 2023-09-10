@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Тариф Супер МТС</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-main wrap">
+            <div class="header-logo">
+                <img src="img/logo.svg" alt="">
+            </div>
+            <nav class="navigation">
+                <ul class="nav-list">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="premium.html">MТС Premium</a></li>
+                    <li><a href="tarif.html">Тарифы</a></li>
+                    <li><a href="mts-launcher.html">МТС Лончер</a></li>
+                </ul>
+            </nav>
+            <div class="header-btn">
+                <button class="button-login js-open-modal" id="callback-button" data-modal="3">Авторизация</button>
+            </div>
+
+            <div class="modal loogin" data-modal="3">
+                <div class="modal__content login">
+                    <img src="img/id.svg" alt="" width="203">
+                    <p class="modalwindow_title tlogin">Введите номер телефона любого оператора</p>
+                    <input type="tel" name="Tel" id="tel" value="+7" class="ilogin">
+                    <button class="modal-avto btnred blogin">Авторизоваться</button>
+                </div>
+            </div>
+            <div class="overlay js-overlay-modal"></div>
+
+        </div>
+    </header>
+    <main>
+        <section class="main_tarifi wrap">
+            <div class="tarifi-content super">
+                <div class="tarifi-content-card">
+                    <div class="tarifi-cont-name">
+                        <p class="tarifi-name-title">Супер МТС</p>
+                        <p class="tarifi-name-p">Для выгодных звонков на МТС домашнего региона</p>
+                    </div>
+                    <div class="tarifi-cont-info">
+                        <div class="tarifi-info-icon">
+                            <div class="t-info-icon">
+                                <img src="img/page_tarif-sim.svg" alt="">
+                                <p class="tarifi-info-p">Интернет</p>
+                            </div>
+                            <p class="tarifi-info-p">100 МБ в сутки</p>
+                        </div>
+                        <div class="tarifi-info-icon">
+                            <div class="t-info-icon">
+                                <img src="img/page_tarif-tel.svg" alt="">
+                                <p class="tarifi-info-p">Звонки</p>
+                            </div>
+                            <p class="tarifi-info-p">Безлимитно</p>
+                        </div>
+                    </div>
+                    <div class="tarifi-cont-price mt">
+                        <p class="tarifi-price-title">0 ₽/день.</p>
+                        <button class="tarifi-price-button js-open-modal" id="callback-button"
+                            data-modal="2">Подключить</button>
+                    </div>
+                </div>
+
+                <div class="modal" data-modal="2">
+                    <div class="modal__content">
+                        <p class="modalwindow_title">Авторизуйтесь, чтобы подключить<br>тариф</p>
+                        <p class="modalwindow_text">Проходя авторизацию, вы соглашаетесь с <a href="https://goo.su/B0t4"
+                                class="modal-link">Правилами МТС</a></p>
+                        <button class="modal-avto btnred">Авторизоваться</button>
+                    </div>
+                </div>
+                <div class="overlay js-overlay-modal"></div>
+
+            </div>
+            <div class="tarifi-info-card">
+                <div class="tar-title">
+                    <p>Подойдёт, если вы пользуетесь простым телефоном и звоните в основном на МТС домашнего региона</p>
+                </div>
+                <div class="tarifi-card">
+                    <div class="tar-card">
+                        <p class="tar-card-title">Скидка до 100% на связь с картой MTS Cashback</p>
+                    </div>
+                    <div class="tar-card">
+                        <p class="tar-card-title">Безлимитные звонки на МТС и все городские телефоны г. Москвы и
+                            Московской области</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-info">
+            <a href="https://clck.ru/34hJy5"><img src="img/app-gallery.svg" alt=""></a>
+            <a href="https://clck.ru/34hJwx"><img src="img/app-store.svg" alt=""></a>
+            <img src="img/footer-qr.svg" alt="" class="qr-ft">
+            <a href="https://clck.ru/34hJyQ"><img src="img/google-play.svg" alt=""></a>
+            <a href="https://clck.ru/34hJyt"><img src="img/app-bazar.svg" alt=""></a>
+        </div>
+    </footer>
+
+    <script src="js/modal-auto.js"></script>
+    <script src="js/modal-login.js"></script>
+</body>
+
+</html>

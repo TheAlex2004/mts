@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>МТС Premium</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-main wrap">
+            <div class="header-logo">
+                <img src="img/logo.svg" alt="">
+            </div>
+            <nav class="navigation">
+                <ul class="nav-list">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="premium.html">MТС Premium</a></li>
+                    <li><a href="tarif.html">Тарифы</a></li>
+                    <li><a href="mts-launcher.html">МТС Лончер</a></li>
+                </ul>
+            </nav>
+            <div class="header-btn">
+                <button class="button-login js-open-modal" id="callback-button" data-modal="3">Авторизация</button>
+            </div>
+
+            <div class="modal loogin" data-modal="3">
+                <div class="modal__content login">
+                    <img src="img/id.svg" alt="" width="203">
+                    <p class="modalwindow_title tlogin">Введите номер телефона любого оператора</p>
+                    <input type="tel" name="Tel" id="tel" value="+7" class="ilogin">
+                    <button class="modal-avto btnred blogin">Авторизоваться</button>
+                </div>
+            </div>
+            <div class="overlay js-overlay-modal"></div>
+
+        </div>
+    </header>
+    <main>
+        <section class="main_premium">
+            <div class="premium-banner">
+                <div class="prem-banner-text wrap">
+                    <p class="prem-banner-title">ПОДПИСКА МТС PREMIUM</p>
+                    <p class="prem-banner-p">Гигабайты интернета, кино, музыка, а ещё умная защита от спам-звонков</p>
+                    <p class="prem-banner-p">30 дней бесплатно, далее – 249 ₽/мес. Подписка доступна абонентам любых
+                        операторов</p>
+                </div>
+            </div>
+            <div class="premium-content wrap">
+                <div class="prem-content-title p-title">
+                    <p>Что входит в подписку</p>
+                </div>
+                <div class="prem-content-card">
+                    <div class="prem-card">
+                        <div class="prem-card-icon">
+                            <img src="img/premium_gb.svg" alt="">
+                        </div>
+                        <div class="prem-card-text">
+                            50 ГБ Интернета в месяц
+                        </div>
+                    </div>
+                    <div class="prem-card">
+                        <div class="prem-card-icon">
+                            <img src="img/premium_spamGuard.svg" alt="">
+                        </div>
+                        <div class="prem-card-text">
+                            Защитник от спам-звонков
+                        </div>
+                    </div>
+                    <div class="prem-card">
+                        <div class="prem-card-icon">
+                            <img src="img/premium_priority.svg" alt="">
+                        </div>
+                        <div class="prem-card-text">
+                            Приоритетное обслуживание
+                        </div>
+                    </div>
+                    <div class="prem-card">
+                        <div class="prem-card-icon">
+                            <img src="img/premium_urent.svg" alt="">
+                        </div>
+                        <div class="prem-card-text">
+                            Юрент «Plus»
+                        </div>
+                    </div>
+                    <div class="prem-card">
+                        <div class="prem-card-icon">
+                            <img src="img/premium_belkaCar.svg" alt="">
+                        </div>
+                        <div class="prem-card-text">
+                            BelkaCar
+                        </div>
+                    </div>
+                    <div class="prem-card">
+                        <div class="prem-card-icon">
+                            <img src="img/premium_mtsMusic.svg" alt="">
+                        </div>
+                        <div class="prem-card-text">
+                            МТС Music
+                        </div>
+                    </div>
+                    <div class="prem-card">
+                        <div class="prem-card-icon">
+                            <img src="img/premium_kion.svg" alt="">
+                        </div>
+                        <div class="prem-card-text">
+                            Подписка KION
+                        </div>
+                    </div>
+                    <div class="prem-card">
+                        <div class="prem-card-icon">
+                            <img src="img/premium_stroki.svg" alt="">
+                        </div>
+                        <div class="prem-card-text">
+                            Строки
+                        </div>
+                    </div>
+                    <div class="prem-card">
+                        <div class="prem-card-icon">
+                            <img src="img/premium_mts.svg" alt="">
+                        </div>
+                        <div class="prem-card-text">
+                            Карта MTS CASHBACK
+                        </div>
+                    </div>
+                    <div class="prem-card">
+                        <div class="prem-card-icon">
+                            <img src="img/premium_mtsPass.svg" alt="">
+                        </div>
+                        <div class="prem-card-text">
+                            МТС Pass
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="premium-subscription wrap">
+                <div class="prem-subscription-title p-title">
+                    <p>Выберите вашу подписку</p>
+                </div>
+                <div class="prem-subscription-card">
+                    <div class="prem-sub-card">
+                        <div class="sub-card-text">
+                            <p class="sub-title">МТС Premium</p>
+                            <p class="sub-text">Полный пакет сервисов</p>
+                            <p class="sub-text">1 участник</p>
+                            <p class="sub-text">Оплата 1 раз в 30 дней</p>
+                        </div>
+                        <div class="sub-info">
+                            <p class="sub-price">249 ₽/мес.</p>
+                            <button class="sub-btn js-open-modal" id="callback-button" data-modal="1">Подключить
+                                бесплатно</button>
+                        </div>
+                    </div>
+                    <div class="prem-sub-card">
+                        <div class="sub-card-text --even">
+                            <p class="sub-title">МТС Premium для семьи</p>
+                            <p class="sub-text">Полный пакет сервисов для всех</p>
+                            <p class="sub-text">3 участника - отдельный аккаунт для каждого</p>
+                            <p class="sub-text">Оплата 1 раз в 30 дней</p>
+                        </div>
+                        <div class="sub-info">
+                            <p class="sub-price">299 ₽/мес.</p>
+                            <button class="sub-btn js-open-modal" id="callback-button" data-modal="1">Подключить
+                                бесплатно</button>
+                        </div>
+                    </div>
+                    <div class="prem-sub-card">
+                        <div class="sub-card-text">
+                            <p class="sub-title">МТС Premium на год</p>
+                            <p class="sub-text">Полный пакет сервисов</p>
+                            <p class="sub-text">1 участник</p>
+                            <p class="sub-text">Оплата 1 раз в 365 дней</p>
+                        </div>
+                        <div class="sub-info">
+                            <p class="sub-price">1890 ₽/мес.</p>
+                            <button class="sub-btn js-open-modal" id="callback-button" data-modal="1">Подключить
+                                бесплатно</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal" data-modal="1">
+                <div class="modal__content">
+                    <p class="modalwindow_title">Авторизуйтесь, чтобы подключить подписку</p>
+                    <p class="modalwindow_text">Проходя авторизацию, вы соглашаетесь с <a href="https://goo.su/B0t4"
+                            class="modal-link">Правилами МТС Premium</a></p>
+                    <button class="modal-avto">Авторизоваться</button>
+                </div>
+            </div>
+            <div class="overlay js-overlay-modal"></div>
+
+            <div class="premium-gift wrap">
+                <div class="prem-gift-title p-title">
+                    <p>Специальные акции</p>
+                </div>
+                <div class="gift-bg">
+                    <div class="prem-gift-card">
+                        <p class="gift-title">Подарите МТС Premium</p>
+                        <p class="gift-text">Сделать полезный подарок просто. Подарите подписку на всё и сразу</p>
+                        <p class="gift-ps">Доступно абонентам всех операторов</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer-info">
+                <a href="https://clck.ru/34hJy5"><img src="img/app-gallery.svg" alt=""></a>
+                <a href="https://clck.ru/34hJwx"><img src="img/app-store.svg" alt=""></a>
+                <img src="img/footer-qr.svg" alt="" class="qr-ft">
+                <a href="https://clck.ru/34hJyQ"><img src="img/google-play.svg" alt=""></a>
+                <a href="https://clck.ru/34hJyt"><img src="img/app-bazar.svg" alt=""></a>
+            </div>
+        </footer>
+    </main>
+
+    <script src="js/modal-sub.js"></script>
+    <script src="js/modal-login.js"></script>
+</body>
+
+</html>

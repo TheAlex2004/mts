@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Тарифы</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-main wrap">
+            <div class="header-logo">
+                <img src="img/logo.svg" alt="">
+            </div>
+            <nav class="navigation">
+                <ul class="nav-list">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="premium.html">MТС Premium</a></li>
+                    <li><a href="tarif.html">Тарифы</a></li>
+                    <li><a href="mts-launcher.html">МТС Лончер</a></li>
+                </ul>
+            </nav>
+            <div class="header-btn">
+                <button class="button-login js-open-modal" id="callback-button" data-modal="3">Авторизация</button>
+            </div>
+
+            <div class="modal loogin" data-modal="3">
+                <div class="modal__content login">
+                    <img src="img/id.svg" alt="" width="203">
+                    <p class="modalwindow_title tlogin">Введите номер телефона любого оператора</p>
+                    <input type="tel" name="Tel" id="tel" value="+7" class="ilogin">
+                    <button class="modal-avto btnred blogin">Авторизоваться</button>
+                </div>
+            </div>
+            <div class="overlay js-overlay-modal"></div>
+
+        </div>
+    </header>
+    <main>
+        <section class="main_tarif wrap">
+            <div class="tarif-title">
+                <p>ТАРИФЫ</p>
+            </div>
+            <div class="tarif-card">
+                <div class="tarif-card-content">
+                    <div class="tarif-content-photo">
+                        <img src="img/tarif1.png" alt="">
+                    </div>
+                    <div class="tarif-content-info">
+                        <div class="tarif-content-text">
+                            <p class="tarif-content-title">ХАЙП</p>
+                            <p class="tarif-content-p">Забит БЕЗЛИМИТАМИ под завязку</p>
+                            <div class="tarif-content-icon">
+                                <img src="img/tarif_icon-sim.svg" alt="">
+                                <p>Безлимитище ГБ</p>
+                            </div>
+                            <div class="tarif-content-icon">
+                                <img src="img/tarif_icon-tel.svg" alt="">
+                                <p>100 минут</p>
+                            </div>
+                        </div>
+                        <div class="tarif-content-price">
+                            <p class="tarif-price-title">500 ₽/мес.</p>
+                            <div class="tarif-price-btn">
+                                <button class="tarif-btn-red js-open-modal" id="callback-button"
+                                    data-modal="2">Подключить</button>
+                                <button class="tarif-btn-gray"
+                                    onclick="document.location='hype.html'">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarif-card-content">
+                    <div class="tarif-content-photo">
+                        <img src="img/tarif2.png" alt="">
+                    </div>
+                    <div class="tarif-content-info">
+                        <div class="tarif-content-text">
+                            <p class="tarif-content-title">Smart</p>
+                            <p class="tarif-content-p">Базовый тариф со связью и интернетом</p>
+                            <div class="tarif-content-icon">
+                                <img src="img/tarif_icon-sim.svg" alt="">
+                                <p>5 ГБ</p>
+                            </div>
+                            <div class="tarif-content-icon">
+                                <img src="img/tarif_icon-tel.svg" alt="">
+                                <p>250 минут</p>
+                            </div>
+                        </div>
+                        <div class="tarif-content-price">
+                            <p class="tarif-price-title">590 ₽/мес.</p>
+                            <div class="tarif-price-btn">
+                                <button class="tarif-btn-red js-open-modal" id="callback-button"
+                                    data-modal="2">Подключить</button>
+                                <button class="tarif-btn-gray"
+                                    onclick="document.location='smart.html'">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarif-card-content">
+                    <div class="tarif-content-photo">
+                        <img src="img/tarif3.png" alt="">
+                    </div>
+                    <div class="tarif-content-info">
+                        <div class="tarif-content-text">
+                            <p class="tarif-content-title">МТС Доступ</p>
+                            <p class="tarif-content-p">Общайтесь, не считая минуты и гигабайты</p>
+                            <div class="tarif-content-icon">
+                                <img src="img/tarif_icon-sim.svg" alt="">
+                                <p>Всё включено</p>
+                            </div>
+                        </div>
+                        <div class="tarif-content-price">
+                            <p class="tarif-price-title">950 ₽/мес.</p>
+                            <div class="tarif-price-btn">
+                                <button class="tarif-btn-red js-open-modal" id="callback-button"
+                                    data-modal="2">Подключить</button>
+                                <button class="tarif-btn-gray"
+                                    onclick="document.location='access.html'">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarif-card-content">
+                    <div class="tarif-content-photo">
+                        <img src="img/tarif4.png" alt="">
+                    </div>
+                    <div class="tarif-content-info">
+                        <div class="tarif-content-text">
+                            <p class="tarif-content-title">Супер МТС</p>
+                            <p class="tarif-content-p">Для выгодных звонков на МТС домашнего региона</p>
+                        </div>
+                        <div class="tarif-content-price">
+                            <p class="tarif-price-title">0 ₽/день.</p>
+                            <div class="tarif-price-btn">
+                                <button class="tarif-btn-red js-open-modal" id="callback-button"
+                                    data-modal="2">Подключить</button>
+                                <button class="tarif-btn-gray"
+                                    onclick="document.location='super.html'">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal" data-modal="2">
+                    <div class="modal__content">
+                        <p class="modalwindow_title">Авторизуйтесь, чтобы подключить<br>тариф</p>
+                        <p class="modalwindow_text">Проходя авторизацию, вы соглашаетесь с <a href="https://goo.su/B0t4"
+                                class="modal-link">Правилами МТС</a></p>
+                        <button class="modal-avto btnred">Авторизоваться</button>
+                    </div>
+                </div>
+                <div class="overlay js-overlay-modal"></div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-info">
+            <a href="https://clck.ru/34hJy5"><img src="img/app-gallery.svg" alt=""></a>
+            <a href="https://clck.ru/34hJwx"><img src="img/app-store.svg" alt=""></a>
+            <img src="img/footer-qr.svg" alt="" class="qr-ft">
+            <a href="https://clck.ru/34hJyQ"><img src="img/google-play.svg" alt=""></a>
+            <a href="https://clck.ru/34hJyt"><img src="img/app-bazar.svg" alt=""></a>
+        </div>
+    </footer>
+
+    <script src="js/modal-auto.js"></script>
+    <script src="js/modal-login.js"></script>
+</body>
+
+</html>
